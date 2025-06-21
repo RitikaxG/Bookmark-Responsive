@@ -33,7 +33,7 @@ export const App = () => {
   }
 
   return <div className="overflow-x-hidden">
-  <BrowserRouter>
+  <BrowserRouter basename="/bookmark">
       <ScrollToSection/>
 
         <FeatureProvider>
